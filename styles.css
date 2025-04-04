@@ -1,0 +1,125 @@
+body {
+    margin-top: 60px; /* Adds space equal to navbar height */
+    background-color: #294e28;
+}
+
+h1,h2,h3,li,p,em,span {
+    color: #fdfff6; /* Light text color for contrast */
+    font-family: Arial, sans-serif; /* Consistent font family */
+    text-decoration: wavy;
+}
+
+nav {
+    background-color: #031a09; /* Dark background */
+    position: fixed; /* Keeps it fixed at the top */
+    top: 0;
+    width: 100%;
+    padding: 10px 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3); /* Adds subtle shadow */
+}
+
+
+nav ul {
+    list-style-type: none; /* Removes bullet points */
+    display: flex; /* Aligns items horizontally */
+    justify-content: space-around; /* Spreads items evenly */
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fdfff6;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #e2f87b; /* Highlight on hover */
+}
+nav ul {
+    list-style-type: none; /* Removes bullet points */
+    display: flex; /* Aligns items horizontally */
+    justify-content: space-around; /* Spreads items evenly */
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+/* Center body content */
+body {
+    margin-top: 60px; /* Adjust for fixed nav height */
+    text-align: center;
+}
+
+form {
+    font-family: Arial, sans-serif;
+}
+form {
+    display: flex; /* Makes form elements align in a row */
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    flex-wrap: wrap; /* Allows wrapping to a new line if necessary */
+    gap: 10px; /* Adds space between elements */
+}
+form input, form button {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #031a09;
+    border-radius: 5px;
+}
+form button {
+    background-color: #fdfff6; /* Light green background */
+    color: #031a09;
+    border: none;
+    cursor: pointer;
+}
+form button:hover {
+    background-color: #e2f87b;
+}
+.center-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 50%; /* Adjust width as needed */
+    padding: 20px;
+    border: 1px solid #ccc; /* Optional: Add a border for better visibility */
+    border-radius: 10px; /* Optional: Add rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow */
+}
+
+/* Align sections separately */
+.skills-section, .signup-section {
+    text-align: left; /* Or align as per your preference */
+    margin: 20px auto;
+    width: 80%;
+}
+
+/* Center the "About Me" section */
+.about-me {
+    text-align: center;
+}
+
+table{
+    margin: 0 auto; /* Center the table */
+    border-collapse: collapse; /* Collapses borders for a cleaner look */
+    width: 80%; /* Adjust width as needed */
+    color: #fdfff6; /* Text color for table */
+}
+
+ul {
+    list-style: none; /* Removes the bullets */
+    padding: 0; /* Removes padding that comes with the list */
+    margin: 0; /* Removes margin around the list */
+  }
+  
